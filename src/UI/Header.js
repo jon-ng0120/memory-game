@@ -6,7 +6,8 @@ import logo from '../Images/marvel-logo.png';
 const HeaderContainer = styled.div`
   width: 100%;
   background: #0a0a0a;
-  padding: 0.5rem 0;
+  padding: 2rem 0;
+  top: 0;
   position: fixed;
 `;
 
@@ -26,6 +27,10 @@ const HeaderDiv = styled.div`
   max-width: 50rem;
   margin: auto;
   padding: 0 1rem;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 const Img = styled.img`
