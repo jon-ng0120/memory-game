@@ -9,6 +9,7 @@ const HeaderContainer = styled.div`
   padding: 2rem 0;
   top: 0;
   position: fixed;
+  z-index: 10;
 `;
 
 const LogoContainer = styled.div`
@@ -42,7 +43,7 @@ const Header = (props) => {
     <HeaderContainer>
       <HeaderDiv>
         <LogoContainer>
-          <Img src={logo} />
+          <Img src={logo} alt="Marvel Logo" />
           <p>Marvel Memory Game</p>
         </LogoContainer>
         <Scoreboard
