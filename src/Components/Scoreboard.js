@@ -6,6 +6,7 @@ const Div = styled.div`
   gap: 2rem;
   font-size: 1.2rem;
   font-weight: 800;
+  color: #dbdbdb;
 
   @media (max-width: 768px) {
     margin-top: 2rem;
@@ -16,25 +17,17 @@ const Div = styled.div`
   }
 `;
 
-const CurrentScore = styled.div`
-  color: #dbdbdb;
-`;
-
-const BestScore = styled.div`
-  color: #dbdbdb;
-`;
-
 const Scoreboard = (props) => {
   return (
     <Div>
-      <CurrentScore>
+      <div>
         <p>Current Score</p>
         <p>{props.currentScore}</p>
-      </CurrentScore>
-      <BestScore>
+      </div>
+      <div>
         <p>Best Score</p>
         <p>{props.bestScore}</p>
-      </BestScore>
+      </div>
     </Div>
   );
 };
