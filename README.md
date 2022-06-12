@@ -2,7 +2,7 @@
 
 Memory Game built as part of the Odin Project cirriculum.
 
-Live Demo
+[Live Demo](https://lolazers.github.io/memory-game/)
 
 ## Installing and Running
 
