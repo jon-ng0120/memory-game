@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/lolazers/memory-game/static/css/main.cde98790.css",
-    "main.js": "/lolazers/memory-game/static/js/main.ce80e05f.js",
-    "static/media/marvel-logo.png": "/lolazers/memory-game/static/media/marvel-logo.72e63b28c8d5238578e7.png",
-    "index.html": "/lolazers/memory-game/index.html",
-    "main.cde98790.css.map": "/lolazers/memory-game/static/css/main.cde98790.css.map",
-    "main.ce80e05f.js.map": "/lolazers/memory-game/static/js/main.ce80e05f.js.map"
+    "main.css": "/static/css/main.cde98790.css",
+    "main.js": "/static/js/main.52c3119e.js",
+    "static/media/marvel-logo.png": "/static/media/marvel-logo.72e63b28c8d5238578e7.png",
+    "index.html": "/index.html",
+    "main.cde98790.css.map": "/static/css/main.cde98790.css.map",
+    "main.52c3119e.js.map": "/static/js/main.52c3119e.js.map"
   },
   "entrypoints": [
     "static/css/main.cde98790.css",
-    "static/js/main.ce80e05f.js"
+    "static/js/main.52c3119e.js"
   ]
 }
