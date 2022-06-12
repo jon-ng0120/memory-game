@@ -4,7 +4,7 @@ export const fetchCharacters = async () => {
   try {
     const response = await fetch(
       `https://gateway.marvel.com:443/v1/public/events/238/characters?limit=20&offset=${randomNumber(
-        50
+        89
       )}&apikey=3c6966520290306ba1bfd532098d66a7`
     );
     const data = await response.json();
