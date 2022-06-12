@@ -16,8 +16,6 @@ const Gameboard = () => {
     addSelectedcharacter(id);
     if (selectCharacterHandler(id)) {
       setGameover(true);
-      // setCurrentScore(0);
-      // setSelectedCharacters([]);
     } else {
       setCurrentScore((prevScore) => prevScore + 1);
     }
