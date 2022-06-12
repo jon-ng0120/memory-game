@@ -15,6 +15,6 @@ npm run start
 
 ## Built With
 
-- [React] (https://reactjs.org/)
-- [Styled Components] (https://styled-components.com/)
-- [Marvel API] (https://developer.marvel.com/)
+- [React](https://reactjs.org/)
+- [Styled Components](https://styled-components.com/)
+- [Marvel API](https://developer.marvel.com/)
